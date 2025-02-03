@@ -35,7 +35,7 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 ALLOWED_HOSTS = ["*"]
 
 # https://docs.djangoproject.com/en/5.0/ref/settings/#csrf-trusted-origins
-CSRF_TRUSTED_ORIGINS = ["*"]
+CSRF_TRUSTED_ORIGINS = []
 
 # Application definition
 
